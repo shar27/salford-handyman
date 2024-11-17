@@ -81,7 +81,7 @@ export default function Contact() {
                 <input type="hidden" name="current_url" />
 
                 <ReCAPTCHA
-                  sitekey="6LcCtoEqAAAAAD8zm7q5UcF3AoOaRUy9w_iBc2gP"
+                  sitekey="6LfV9nkqAAAAAKJA-KJdoNsvQDXNTbBDIxkDXKbp"
                   onChange={onReCAPTCHAChange}
                 />
               
