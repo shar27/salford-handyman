@@ -17,11 +17,11 @@ export default function Header() {
         <HeadingTag>
             Property maintenance specialists covering Manchester, Liverpool & surrounding areas.
           </HeadingTag>
-          <h1 className="extraBold font60">Manchester Property Maintenance.</h1>
+          <h1 className="extraBold font60">Bolton Handyman.</h1>
           
           
           <HeaderP className="font13 semiBold">
-          Looking for reliable property maintenance services in Manchester, Liverpool & surrouding areas
+          Looking for reliable property maintenance/handyman services in Bolton, Liverpool & surrouding areas
           Our experienced team offers comprehensive solutions for residential and commercial properties, 
           including building maintenance, repairs, and management. Trust us for efficient and affordable services tailored to landlords and property owners. 
           Contact us for emergency assistance and ensure your property's upkeep with our expert solutions.
