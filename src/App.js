@@ -5,7 +5,13 @@ import { Helmet } from "react-helmet";
 import Landing from "./screens/Landing.jsx";
 import Landlords from './screens/Landlords.jsx';
 import DynamicPage from "./components/DynamicPage.jsx";
-import Manchester from './screens/Manchester.jsx'
+import Commercial from '../src/screens/Commercial.jsx'
+import ThankYou from "./screens/ThankYou.jsx";
+import JoineryServices from "./screens/JoineryPage.jsx";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import FinancePage from "./screens/FinancePage.jsx";
+
 
 export default function App() {
   return (
@@ -20,8 +26,12 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/landlords" element={<Landlords />} />
-          <Route path="/manchesterpropertymaintenance" element={<Manchester />} />
+          <Route path="/commercial" element={<Commercial/>}/>
+          <Route path="joinery" element={<JoineryServices/>}/>
+          <Route path="thankyou" element={<ThankYou/>}/>
           <Route path=":slug" element={<DynamicPage/>}/>
+          <Route path="zero-percent-finance" element={<FinancePage/>}/>
+          <Route path="thankyou" element={<ThankYou/>}/>
         </Routes>
       </>
     </Router>
